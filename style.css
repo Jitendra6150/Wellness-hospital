@@ -1,0 +1,1175 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#god{
+    background-image: url(assets/best-hospital.webp);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+#god h1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#head{
+    border-bottom: none;
+    background-color: blue;
+}
+#head button{
+    width: 300px;
+    height: 40px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+#head button:hover{
+    background-color: white;
+    color: black;
+}
+#head1 button:hover{
+    background-color: white;
+    color: black;
+}
+#head1{
+    border-bottom: none;
+    background-color: blue;
+    display: none;
+}
+#head1 button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+header{
+    background-color: white;
+    border-bottom: 2px solid rgb(209, 205, 205);
+}
+.navbar .nav-item .nav-link{
+    color: black;
+    font-size: 20px;
+    margin-right: 20px; 
+    font-weight: 700;
+}
+.navbar img{
+    width: 100px;
+    height: 100px;
+}
+.navbar .nav-item .nav-link:hover{
+    color: blue;
+    border-bottom: 2px solid green;
+}
+
+.banner1, .banner2, .banner3{
+    width: 100%;
+    height: 80vh;
+    background-image: url(assets/banner1.png);
+    background-size: cover;
+    background-position: center;
+}
+.banner2{
+    background-image: url(assets/banner2.png);
+    background-size: cover;
+}
+.banner3{
+    background-image: url(assets/banner3.png);
+    background-size: cover;
+}
+#banners .carousel-caption h1{
+    font-weight: 900;
+    font-size: 36px;
+}
+#banners .carousel-caption p{
+    font-size: 20px;
+}
+#banners .carousel-caption button{
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+#banners .carousel-caption button:hover{
+    background-color: blue;
+    color: white;
+}
+
+#about{
+    background-color: white;
+}
+#about .feature h1{
+    font-size: 32px;
+}
+#about .feature p{
+    font-size: 12px;
+}
+
+.best{
+    font-weight: 900;
+    color: black;
+}
+
+#about .solutions h1{
+    font-size: 28px;
+}
+#about .solutions p{
+    text-align: justify;
+    font-size: 16px;
+}
+
+#calls .emergency{
+    display: inline-block;
+    width: 350px;
+    height: 250px;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    border-right: 2px solid white;
+}
+#calls .second{
+    background-color: blue;
+    color: white;
+}
+#calls .second button{
+    color: white;
+}
+#calls .emergency h2,h3{
+    font-size: 20px;
+}
+#calls .emergency p{
+    font-size: 12px;
+}
+#calls .emergency button{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid white;
+    color: black;
+}
+#calls .emergency button:hover{
+    background-color: green;
+    color: white;
+}
+#more{
+    font-size: 16px;
+}
+
+#parts button{
+    width: 150px;
+    height: 50px;
+    border: 2px solid blue;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+#parts button:hover{
+    background-color: green;
+    color: white;
+    border: none;
+}
+#xray:hover{
+    font-size: 20px;
+}
+
+#dormitory ul{
+    list-style: none;
+}
+#dormitory li::before{
+    content: "\2746";
+    margin-right: 10px;
+    color: blue;
+}
+#dormitory h1{
+    border-bottom: 2px solid black;
+    width: 45%;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+#dormitory p{
+    text-align: justify;
+    font-size: 14px;
+}
+#dormitory img{
+    border-radius: 5%;
+}
+#dormitory .dormitory1 button{
+    background-color: green;
+    color: white;
+    border: none;
+}
+#dormitory .dormitory1 button:hover{
+    background-color: blue;
+    color: white;
+}
+
+#dormitory2 ul{
+    list-style: none;
+}
+#dormitory2 li::before{
+    content: "\2746";
+    margin-right: 10px;
+    color: blue;
+}
+#dormitory2 h1{
+    border-bottom: 2px solid black;
+    width: 45%;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+#dormitory2 p{
+    text-align: justify;
+    font-size: 14px;
+}
+#dormitory2 img{
+    border-radius: 5%;
+}
+#dormitory2 .dormitory1 button{
+    background-color: green;
+    color: white;
+    border: none;
+}
+#dormitory2 .dormitory1 button:hover{
+    background-color: blue;
+    color: white;
+}
+
+#dormitory3 ul{
+    list-style: none;
+}
+#dormitory3 li::before{
+    content: "\2746";
+    margin-right: 10px;
+    color: blue;
+}
+#dormitory3 h1{
+    border-bottom: 2px solid black;
+    width: 45%;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+#dormitory3 p{
+    text-align: justify;
+    font-size: 14px;
+}
+#dormitory3 img{
+    border-radius: 5%;
+}
+#dormitory3 .dormitory1 button{
+    background-color: green;
+    color: white;
+    border: none;
+}
+#dormitory3 .dormitory1 button:hover{
+    background-color: blue;
+    color: white;
+}
+
+#dormitory4 ul{
+    list-style: none;
+}
+#dormitory4 li::before{
+    content: "\2746";
+    margin-right: 10px;
+    color: blue;
+}
+#dormitory4 h1{
+    border-bottom: 2px solid black;
+    width: 45%;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+#dormitory4 p{
+    text-align: justify;
+    font-size: 14px;
+}
+#dormitory4 img{
+    border-radius: 5%;
+}
+#dormitory4 .dormitory1 button{
+    background-color: green;
+    color: white;
+    border: none;
+}
+#dormitory4 .dormitory1 button:hover{
+    background-color: blue;
+    color: white;
+}
+
+#dormitory5 ul{
+    list-style: none;
+}
+#dormitory5 li::before{
+    content: "\2746";
+    margin-right: 10px;
+    color: blue;
+}
+#dormitory5 h1{
+    border-bottom: 2px solid black;
+    width: 45%;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+#dormitory5 p{
+    text-align: justify;
+    font-size: 14px;
+}
+#dormitory5 img{
+    border-radius: 5%;
+}
+#dormitory5 .dormitory1 button{
+    background-color: green;
+    color: white;
+    border: none;
+}
+#dormitory5 .dormitory1 button:hover{
+    background-color: blue;
+    color: white;
+}
+
+#provide .medical h1{
+    font-size: 34px;
+}
+#provide .medical span{
+    font-weight: 900;
+}
+#provide .medical p{
+    font-size: 15px;
+}
+#provide .rest .card{
+    box-shadow: 2px 5px 5px 2px rgb(144, 143, 143);
+}
+#provide .rest p{
+    font-size: 12px;
+}
+#provide .rest h4{
+    font-size: 24px;
+}
+
+#doctors .experts h1{
+    font-size: 34px;
+}
+#doctors .experts span{
+    font-size: 34px;
+    font-weight: 900;
+}
+#doctors .experts p{
+    font-size: 20px;
+}
+#doctors .kiran .card{
+    box-shadow: 2px 5px 5px 3px rgb(144, 143, 143);
+    margin-bottom: 20px;
+}
+#doctors .kiran h4{
+    font-size: 28px;
+    border-bottom: 2px solid black;
+}
+#doctors .kiran p{
+    font-size: 16px;
+}
+#doctors .kiran button{
+    width: 200px;
+    height: 50px;
+    border: 2px solid rgb(104, 104, 249);
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+}
+#doctors .kiran button:hover{
+    background-color: green;
+    border: none;
+    color: white;
+}
+
+.staff{
+    background-image: url(assets/hospitalback1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#patient .says img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+    position: relative;
+    box-shadow: -2px 2px 2px 2px grey;
+    border: 2px solid white;
+}
+#patient .says .care{
+    border: 2px solid rgb(168, 166, 166);
+    margin-bottom: 60px;
+    width: 450px;
+    margin-right: 20px;
+    background-color: rgb(218, 205, 205);
+    border-radius: 20px;
+}
+#patient .says p{
+   text-align: justify;
+   font-size: 16px;
+}
+#patient .what h1{
+    color: white;
+    font-size: 38px;
+}
+#patient .what span{
+    font-weight: 900;
+}
+
+#choose .faqasked h1{
+    font-size: 38px;
+}
+#choose .use h4{
+    font-size: 28px;
+}
+#choose .use p{
+    font-size: 16px;
+    text-align: justify;
+}
+
+#one .one1 input{
+    background-color: rgba(255, 255, 255, 0.281);
+    color: black;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px 2px grey;
+}
+#one .one1 button{
+    background-color: green;
+    color: white;
+}
+#one .one1 button:hover{
+    background-color: blue;
+    color: white;
+}
+#one .one1 select{
+    background-color: rgba(255, 255, 255, 0.281);
+    color: black;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px 2px grey;
+}
+#one .one1 select:hover{
+    border: 2px solid blue;
+}
+#one .one1 select option{
+    background-color: rgba(255, 255, 255, 0.281);
+    color: black;
+    box-shadow: 2px 2px 5px 2px grey;
+}
+#one .one1 textarea{
+    background-color: rgba(255, 255, 255, 0.281);
+    color: black;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px 2px grey;
+}
+
+.five{
+    background-image: url(assets/hospital.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+footer {
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: blue;
+}
+footer .social-icons i{
+    color: white;
+}
+.footer-links {
+    margin-top: 20px;
+}
+.footer-links a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.social-icons a{
+    margin-right: 20px;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+#class iframe{
+    width: 560px;
+    height: 315px;
+}
+#class h5{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: rgb(139, 137, 137);
+}
+#class h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 900;
+ }
+
+#hack .hack1 img{
+    height: 550px;
+    border-radius: 10px;
+}
+#hack .hack1 h1,h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#hack .hack1 p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#shot .shot1 h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+}
+#shot .shot2 h5{ 
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#play .play1 img{
+    height: 580px;
+    border-radius: 20px;
+}
+#play .play1 h1{
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 30px;
+}
+#play .play1 span{
+    border-bottom: 2px solid blue;
+}
+#play .play1 p{
+    text-align: justify;
+}
+#play .play1 ul li{
+    list-style: none;
+}
+#play .play1 ul li::before{
+    content: "\21C9";
+    margin-right: 10px;
+    color: green;
+}
+
+#relate .relate1 img{
+    border-radius: 20px;
+}
+#relate .relate1 h1{
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 30px;
+    border-bottom: 2px solid blue;
+    width: fit-content;
+}
+
+#robust .robust1 h1{
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#robust .robust2 iframe{
+    width: 550px;
+    height: 315px;
+}
+#robust .robust2 h5{
+    margin-top: 10px;
+}
+
+#trust{
+    width: 800px;
+    height: 180px;
+    box-shadow: 2px 2px 5px 2px grey;
+}
+
+.king h2,h6,label{
+    padding: 10px;
+    text-align: justify;
+}
+.king p{
+    padding: 10px;
+    text-align: justify;
+}
+#ch{
+    display: none;
+}
+#ch:checked ~ .content{
+    display: block;
+}
+#ch:checked ~ label{
+    display: none;
+}
+.content{
+    display: none;
+}
+label{
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(72, 113, 97);
+    padding: 3px 13px;
+    border-radius: 5px;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+#trust{
+    background-color: blue;
+    color: white;
+}
+
+.queen h2,h6,label{
+    padding: 10px;
+    text-align: justify;
+}
+.queen p{
+    padding: 10px;
+    text-align: justify;
+}
+#hc{
+    display: none;
+}
+#hc:checked ~ .context{
+    display: block;
+}
+#hc:checked ~ label{
+    display: none;
+}
+.context{
+    display: none;
+}
+label{
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    background-color: green;
+    padding: 3px 13px;
+    border-radius: 5px;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+#blog .blog4 ul li{
+    display: inline-block;
+    list-style: none;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+#blog .blog4 ul button{
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+#blog .blog2 h5{
+    border-bottom: 2px solid blue;
+    width: fit-content;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#blog .blog3 h5{
+    border-bottom: 2px solid blue;
+    width: fit-content;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#blog .blog4 h5{
+    border-bottom: 2px solid blue;
+    width: fit-content;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#blog h1{
+    font-style: italic;
+    border-bottom: 2px solid blue;
+    width: fit-content;
+    text-align: center;
+}
+
+.five i{
+    font-size: 20px;
+}
+#five .fives input{
+    border: 1px solid black;
+}
+#five .fives textarea{
+    border: 1px solid black;
+}
+#five .fives button{
+    background-color: green;
+    color: white;
+}
+#five .fives button:hover{
+    background-color: blue;
+    color: white;
+}
+
+#dormp p{
+    text-align: justify;
+}
+#dormp dl dd{
+    text-align: justify;
+}
+#dormp .dormp2 img{
+    height: 215px;
+}
+#dormp .dormp1 img{
+    height: 450px;
+}
+#dormp h1{
+    font: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#dormp .dormp3 h2{
+    font: 900;
+    font-family: fantasy;
+}
+
+@media(max-width:600px){
+    .banner1,.banner2,.banner3{
+       width: 100% !important;
+       height: 50vh;
+    }
+    #banners .carousel-caption h1{
+        font-weight: 700;
+        font-size: 24px;
+    }
+    #banners .carousel-caption p{
+        font-size: 12px;
+    }
+    #banners .carousel-caption button{
+        width: 100px;
+        height: 35px;
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;
+    }
+    #about .feature h1{
+        font-size: 20px;
+    }
+    #about .feature p{
+        font-size: 8px;
+    }
+    #about .solutions h1{
+        font-size: 12px !important;
+    }
+    #about .solutions p{
+        text-align: justify;
+        font-size: 6px !important;
+    }
+    #calls .emergency{
+        display: inline-block;
+        width: 130px !important;
+        height: 160px !important;
+        padding: 10px;
+    }
+    #calls .emergency h2,h3{
+        font-size: 8px !important;
+        padding: 10px;
+    }
+    #calls .emergency p{
+        font-size: 6px !important;
+        padding: 10px;
+    }
+    #calls .emergency i{
+        padding: 5px;
+    }
+    #calls .emergency button{
+        display: none;
+    }
+    #parts button{
+        width: 100px !important;
+        height: 30px !important;
+        border: 2px solid green;
+        background-color: transparent;
+        margin-bottom: 10px;
+    }
+    #parts button:hover{
+        background-color: green;
+        color: white;
+    }
+    #xray:hover{
+        font-size: 14px;
+    }
+    #provide .medical h1{
+        font-size: 24px;
+    }
+    #provide .medical span{
+        font-weight: 800;
+    }
+    #provide .medical p{
+        font-size: 10px !important;
+    }
+
+    #doctors .experts h1{
+        font-size: 24px;
+    }
+    #doctors .experts span{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    #doctors .experts p{
+        font-size: 10px !important;
+    }
+    #doctors .kiran .card{
+        box-shadow: 2px 5px 5px 3px rgb(144, 143, 143);
+        margin-bottom: 20px;
+    }
+    #doctors .kiran h4{
+        font-size: 24px;
+        border-bottom: 2px solid black;
+    }
+    #doctors .kiran p{
+        font-size: 12px !important;
+    }
+    #doctors .kiran button{
+        width: 200px;
+        height: 50px;
+        border: 2px solid rgb(104, 104, 249);
+        background-color: rgba(1, 1, 253, 0.637);
+        color: white;
+        font-weight: 700;
+    }
+    #patient .says p{
+        text-align: justify;
+        font-size: 12px !important;
+    }
+    #patient .what h1{
+         color: white;
+         font-size: 21px !important;
+    }
+    #patient .what span{
+         font-weight: 900;
+    }
+    #patient .says h4{
+        font-size: 20px !important;
+   }
+
+    #choose .faqasked h1{
+        font-size: 24px;
+    }
+    #choose .use h4{
+        font-size: 16px !important;
+    }
+    #choose .use p{
+        font-size: 10px;
+        text-align: justify;
+    }
+
+    .contact{
+        width: 100%;
+    }
+    
+    #class iframe{
+        width: 300px;
+        height: 250px;
+    }
+    #shot .shot1 h1{
+        font-size: 24px;
+    }
+    #shot .shot1 p{
+        font-size: 10px !important;
+    }
+    #shot .shot2 h5{ 
+        font-size: 10px !important;
+    }
+    #play .play1 img{
+        height: 500px !important;
+    }
+    #relate .relate1 img{
+        height: 400px !important;
+    }
+    #relate .relate1 p{
+        text-align: justify;
+    }
+
+    #robust .robust2 iframe{
+        width: 350px !important;
+        height: 215px !important;
+    }
+
+    #robust .robust1 p{
+        font-size: 8px !important;
+    }
+    #robust .robust1 h1{
+        font-size: 18px !important;
+    }
+
+    #dormp .dormp2 img{
+        height: 117px;
+    }
+    #dormp .dormp1 img{
+        height: 250px;
+    }
+
+    #trust{
+        width: 350px !important;
+        height: 150px !important;
+        box-shadow: 2px 2px 5px 2px grey;
+    }
+    #trust p{
+        font-size: 6px !important;
+    }
+}
+@media(max-width:1000px){
+    #head1{
+        display: block !important;
+    }
+    #head{
+        display: none;
+    }
+    #about .solutions h1{
+        font-size: 14px;
+    }
+    #about .solutions p{
+        text-align: justify;
+        font-size: 8px;
+    }
+    #calls .emergency{
+        display: inline-block;
+        width: 220px; 
+        height: 200px;
+        padding: 0px;
+    }
+    #calls .emergency h2,h3{
+        font-size: 13px;
+        padding: 10px;
+    }
+    #calls .emergency p{
+        font-size: 8px;
+        padding: 10px;
+    }
+    #calls .emergency i{
+        padding: 10px;
+    }
+    #calls .emergency button{
+        width: 60px;
+        height: 20px;
+        background-color: transparent;
+        border: 2px solid white;
+    }
+    #more{
+        font-size: 8px !important;
+    }
+    #parts button{
+        width: 100px;
+        height: 40px;
+        border: 2px solid green;
+        background-color: transparent;
+        margin-bottom: 10px;
+    }
+    #parts button:hover{
+        background-color: green;
+        color: white;
+    }
+    #xray:hover{
+        font-size: 18px;
+    }
+    #provide .medical h1{
+        font-size: 28px;
+    }
+    #provide .medical span{
+        font-weight: 800;
+    }
+    #provide .medical p{
+        font-size: 12px;
+    }
+
+    #doctors .experts h1{
+        font-size: 24px !important;
+    }
+    #doctors .experts span{
+        font-size: 24px !important;
+        font-weight: 700 !important;
+    }
+    #doctors .experts p{
+        font-size: 14px;
+    }
+
+    #patient .says img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-top: -50px;
+        position: relative;
+    }
+    #patient .says .care{
+        border: 2px solid black;
+        margin-bottom: 60px;
+        width: 250px !important;
+        margin-right: 20px;
+    } 
+    #patient .says p{
+        text-align: justify;
+        font-size: 16px;
+    }
+    #patient .what h1{
+         color: white;
+         font-size: 32px;
+    }
+    #patient .what span{
+         font-weight: 900;
+    }
+
+    #choose .faqasked h1{
+        font-size: 30px;
+    }
+    #choose .use h4{
+        font-size: 20px;
+    }
+    #choose .use p{
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    #shot .shot1 p{
+        font-size: 12px;
+    }
+    #shot .shot2 h5{ 
+        font-size: 12px;
+    }
+
+    #robust .robust1 p{
+        font-size: 12px;
+    }
+    #robust .robust1 h1{
+        font-size: 24px;
+    }
+
+    #trust p{
+        font-size: 12px;
+    }
+    #trust{
+        width: 600px;
+        height: 150px;
+        box-shadow: 2px 2px 5px 2px grey;
+    }
+}
+@media(max-width:1200px){
+    #calls .emergency{
+        display: inline-block;
+        width: 300px;
+        height: 250px;
+    }
+    #calls .emergency h2,h3{
+        font-size: 16px;
+        padding: 10px;
+    }
+    #calls .emergency p{
+        font-size: 10px;
+        padding: 10px;
+    }
+    #calls .emergency i{
+        padding: 10px;
+    }
+    #calls .emergency button{
+        width: 80px;
+        height: 30px;
+        background-color: transparent;
+        border: 2px solid white;
+    }
+    #more{
+        font-size: 12px;
+    }
+    #dormitory h1{
+        border-bottom: 2px solid black;
+        width: 45%;
+        font-size: 38px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    #dormitory p{
+        text-align: justify;
+        font-size: 12px;
+    }
+    #provide .rest p{
+        font-size: 10px;
+    }
+
+    #doctors .experts h1{
+        font-size: 28px;
+    }
+    #doctors .experts span{
+        font-size: 28px;
+        font-weight: 900;
+    }
+    #doctors .experts p{
+        font-size: 16px;
+    }
+    #doctors .kiran .card{
+        box-shadow: 2px 5px 5px 3px rgb(144, 143, 143);
+        margin-bottom: 20px;
+    }
+    #doctors .kiran h4{
+        font-size: 24px;
+        border-bottom: 2px solid black;
+    }
+    #doctors .kiran p{
+        font-size: 14px;
+    }
+    #doctors .kiran button{
+        width: 200px;
+        height: 50px;
+        border: 2px solid rgb(104, 104, 249);
+        background-color: rgba(1, 1, 253, 0.637);
+        color: white;
+        font-weight: 700;
+    }
+
+    #patient .says img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-top: -50px;
+        position: relative;
+    }
+    #patient .says .care{
+        border: 2px solid black;
+        margin-bottom: 60px;
+        width: 350px;
+        margin-right: 20px;
+    } 
+    #patient .says p{
+        text-align: justify;
+        font-size: 16px;
+     }
+     #patient .what h1{
+         color: white;
+         font-size: 38px;
+     }
+     #patient .what span{
+         font-weight: 900;
+     }
+
+     #choose .show span{
+        position: relative;
+        right: -600px;
+    }
+
+    #hack .hack1 img{
+        height: 600px;
+    }
+    #play .play1 img{
+        height: 600px;
+    }
+
+    #robust .robust2 iframe{
+        width: 450px;
+        height: 215px;
+    }
+}
